@@ -4,6 +4,13 @@ const basePage = {
     },
     verifyUrl: url => {
         cy.url().should('include', url);
+    },
+    view: device => {
+        if(device == "mobile"){
+            cy.viewport(1440, 900);
+        } else {
+            cy.viewport(550, 1400);
+        }
     }
 };
 

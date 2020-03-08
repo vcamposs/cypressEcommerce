@@ -7,5 +7,6 @@ Feature: Eu como cliente desejo efetuar a compra de um produto no site da C&A
     And e eu inicio o processo de compra
     Then o produto "<produto>" está no carrinho
     Examples:
-      | device    | produto |
-      | iphone-xr | Kindle  |
+      | device | produto |
+      | mobile | Kindle  |
+      | web    | Kindle  |
