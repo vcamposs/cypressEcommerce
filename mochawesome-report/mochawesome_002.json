@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-03-08T17:42:36.986Z",
+    "end": "2020-03-08T17:45:05.462Z",
+    "duration": 148476,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "ebec2950-af8b-4c44-91e1-1326b85e3a16",
+    "title": "",
+    "fullFile": "features/compraProduto.feature",
+    "file": "features/compraProduto.feature",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "e0a27325-5e59-493b-b1d9-c2501a7ddc2f",
+        "title": "Eu como cliente desejo efetuar a compra de um produto no site da C&A",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #1)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #1)",
+            "duration": 84886,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "30d52d45-c654-4f4b-ad75-3f2602bc7a32",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #2)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #2)",
+            "duration": 62775,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6264607e-68b3-4d3e-855a-b4ee320999da",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "30d52d45-c654-4f4b-ad75-3f2602bc7a32",
+          "6264607e-68b3-4d3e-855a-b4ee320999da"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 147661,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}
