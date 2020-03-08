@@ -5,7 +5,7 @@ $ cd /cypressEcommerce/
 $ npm install
 $ npm run e2e-test OU $ npm run e2e-test:headless
 ```
-2. Execução do teste E2E usando o Cypress : 
+2. Execução dos testes E2E : 
 
 ![sample](cypressExecution.gif)
 
