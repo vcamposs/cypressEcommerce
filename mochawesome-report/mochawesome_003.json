@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-03-08T13:42:01.041Z",
+    "end": "2020-03-08T13:43:20.788Z",
+    "duration": 79747,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "c99f4493-c949-4720-b82b-3e1be6195298",
+    "title": "",
+    "fullFile": "features/compraProduto.feature",
+    "file": "features/compraProduto.feature",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "ebc203d0-db4a-4ff5-ba26-897ad5709278",
+        "title": "Eu como cliente desejo efetuar a compra de um produto no site da C&A",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #1)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #1)",
+            "duration": 79402,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a10f585f-c514-4ad1-ad27-2e761f3c9807",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "a10f585f-c514-4ad1-ad27-2e761f3c9807"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 79402,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}

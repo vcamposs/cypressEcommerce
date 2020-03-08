@@ -1,0 +1,81 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-03-08T16:38:54.301Z",
+    "end": "2020-03-08T16:40:33.716Z",
+    "duration": 99415,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "eb7e24ae-3505-4d55-a610-de0765449377",
+    "title": "",
+    "fullFile": "features/compraProduto.feature",
+    "file": "features/compraProduto.feature",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "e69630d8-8046-4b45-a91e-a4982c0ac15d",
+        "title": "Eu como cliente desejo efetuar a compra de um produto no site da C&A",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #1)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #1)",
+            "duration": 99282,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "context": "\"./screenshots/Eu como cliente desejo efetuar a compra de um produto no site da C&A -- Efetuar o processo de compra até o carrinho (example #1) (failed).png\"",
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {
+              "message": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.",
+              "estack": "CypressError: Timed out after waiting '60000ms' for your remote page to load.\n\nYour page did not fire its 'load' event within '60000ms'.\n\nYou can try increasing the 'pageLoadTimeout' value in 'cypress.json' to wait longer.\n\nBrowsers will not fire the 'load' event until all stylesheets and scripts are done downloading.\n\nWhen this 'load' event occurs, Cypress will continue running commands.\n    at Object.cypressErr (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86194:17)\n    at timedOutWaitingForPageLoad (https://www.cea.com.br/__cypress/runner/cypress_runner.js:70751:17)\n    at https://www.cea.com.br/__cypress/runner/cypress_runner.js:70967:14\n    at tryCatcher (https://www.cea.com.br/__cypress/runner/cypress_runner.js:120203:23)\n    at https://www.cea.com.br/__cypress/runner/cypress_runner.js:115344:41\n    at tryCatcher (https://www.cea.com.br/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114812:14)"
+            },
+            "isRoot": false,
+            "uuid": "4dbfd542-4885-48db-8b84-012ada8791a9",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "4dbfd542-4885-48db-8b84-012ada8791a9"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 99282,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}
