@@ -1,6 +1,13 @@
+const constants = require('../config/constants');
+
 const homePage = {
     searchProduct: product => {
-        cy.get(pageFactor.searchField, {timeout: 50000}).first().focus().type(product).type("{enter}");
+        cy.get(pageFactor.searchField, 
+              {timeout: constants.properties.timeout.genericElement})
+              .first()
+              .focus()
+              .type(product)
+              .type("{enter}");
     }
 };
 

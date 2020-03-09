@@ -1,6 +1,12 @@
+const constants = require('../config/constants');
+
 const searchResult = {
     validateAndClick: (product) => {
-        cy.get(pageFactor.productCard, {timeout: 50000}).first().contains(product).click();
+        cy.get(pageFactor.productCard, 
+              {timeout: constants.properties.timeout.genericElement})
+              .first()
+              .contains(product)
+              .click();
     }
 };
 

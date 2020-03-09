@@ -6,7 +6,7 @@ const basePage = {
         cy.url().should('include', url);
     },
     view: device => {
-        if(device == "mobile"){
+        if(device == "celular"){
             cy.viewport(1440, 900);
         } else {
             cy.viewport(550, 1400);

@@ -1,7 +1,14 @@
+const constants = require('../config/constants');
+
 const productPage = {
     startPurchaseProcess: () => {
-        cy.get(pageFactor.productBuyBtn, {timeout: 50000}).click();
-        cy.get(pageFactor.goToCartBtn, {timeout: 50000}).first().click();
+        cy.get(pageFactor.productBuyBtn, 
+              {timeout: constants.properties.timeout.genericElement})
+              .click();
+        cy.get(pageFactor.goToCartBtn, 
+              {timeout: constants.properties.timeout.genericElement})
+              .first()
+              .click();
     }
 };
 
