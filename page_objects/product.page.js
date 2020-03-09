@@ -6,8 +6,6 @@ const productPage = {
 };
 
 const pageFactor = {
-    searchField: "#q",
-    productCard: ".product-image",
     productBuyBtn: "#product-buy-button",
     goToCartBtn: ".keepbuying-goToCart"
 };
