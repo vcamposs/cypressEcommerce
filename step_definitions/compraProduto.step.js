@@ -5,7 +5,7 @@ const  searchResultPage = require('../page_objects/searchResult.page');
 const  productPage      = require('../page_objects/product.page');
 const  cartPage         = require('../page_objects/cart.page');
 
-Then('eu acesso o site da C&A pelo(a) {string}', (device) => {
+Then('eu acesso o site da C&A pelo {string}', (device) => {
 	basePage.view(device);
 	basePage.openUrl("/");
 }); 
