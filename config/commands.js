@@ -1,12 +1,4 @@
 import addContext from 'mochawesome/addContext';
-import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command';
-
-addMatchImageSnapshotCommand({
-    failureThreshold: 0.0,
-    failureThresholdType: 'percent',
-    customDiffConfig: { threshold: 0.0 },
-    capture: 'viewport',
-});
 
 Cypress.Commands.add("setResolution", (size) => {
     if (Cypress._.isArray(size)) {

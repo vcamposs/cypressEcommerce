@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-03-09T01:52:47.420Z",
+    "end": "2020-03-09T01:54:52.547Z",
+    "duration": 125127,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "ffe1b611-8b35-472f-9a9e-e3cc0414ad97",
+    "title": "",
+    "fullFile": "features/compraProduto.feature",
+    "file": "features/compraProduto.feature",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "d3ad2534-cf54-4b29-9c24-e4aaa1e4d98b",
+        "title": "Eu como cliente desejo efetuar a compra de um produto no site da C&A",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #1)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #1)",
+            "duration": 69577,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "context": "\"./screenshots/Eu como cliente desejo efetuar a compra de um produto no site da C&A -- Efetuar o processo de compra até o carrinho (example #1) (failed).png\"",
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {
+              "message": "CypressError: Timed out retrying: Expected to find element: '.nm-product-item', but never found it.",
+              "estack": "CypressError: Timed out retrying: Expected to find element: '.nm-product-item', but never found it.\n    at Object.cypressErr (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (https://www.cea.com.br/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (https://www.cea.com.br/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (https://www.cea.com.br/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (https://www.cea.com.br/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (https://www.cea.com.br/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (https://www.cea.com.br/__cypress/runner/cypress_runner.js:114812:14)"
+            },
+            "isRoot": false,
+            "uuid": "9c210ef4-129b-4364-95c6-21e435d7e682",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Efetuar o processo de compra até o carrinho (example #2)",
+            "fullTitle": "Eu como cliente desejo efetuar a compra de um produto no site da C&A Efetuar o processo de compra até o carrinho (example #2)",
+            "duration": 55066,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => {\n    stepTest.call(this, step);\n  });\n}\nscenario.steps.forEach(step => {\n  const newStep = Object.assign({}, step);\n  newStep.text = replaceParameterTags(rowData, newStep.text);\n  stepTest.call(this, newStep);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "453e3a1d-1490-458b-8ce6-f4f2aa0bc9cf",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "453e3a1d-1490-458b-8ce6-f4f2aa0bc9cf"
+        ],
+        "failures": [
+          "9c210ef4-129b-4364-95c6-21e435d7e682"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 124643,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}
